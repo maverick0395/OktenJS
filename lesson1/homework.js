@@ -157,8 +157,7 @@ document.write('\n');
 
 console.log(lie);
 alert(lie);
-document.write(lie);
-document.write('\n');
+document.write(lie + "<br/>");
 
 // - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person. (Не об'єкт)
 let firstName = 'Yaroslav';
@@ -198,5 +197,13 @@ console.log(10 != 10);
 console.log(123 === '123');
 console.log(123 == '123');
 
+// - Подумайте Какие значения выведет в окно браузера следующий фрагмент кода?  и почему?
+
+let str = "20";
+let n = 5;
+document.write(str + n + "<br/>"); // 205, тип string. При додаванні number до string, number перетворюється на string
+document.write(str - n + "<br/>"); // 15, тип number. При операції віднімання, string перетворюється на number, якщо має числове представлення.
+document.write(str * "2" + "<br/>"); // 40, тип number. Якщо обидва множника string мають числове представлення результат буде number
+document.write(str / 2 + "<br/>"); // 10, тип number. При операції ділення, string перетворюється на number, якщо має числове представлення.
 
 
