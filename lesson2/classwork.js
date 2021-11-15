@@ -19,13 +19,13 @@ if (a > b) {
 //     Програма повинна зазначити, в якому під'їзді знаходиться дана квартира.
 
 let flatNumber = Math.floor(Math.random()*90) + 1;
-if (flatNumber <=20) {
+if (flatNumber > 0 && flatNumber <= 20) {
     console.log(flatNumber);
     console.log('The flat is in the first section of the house');
-} else if (flatNumber <=48) {
+} else if (flatNumber > 20 && flatNumber <= 48) {
     console.log(flatNumber);
     console.log('The flat is in the second section of the house');
-} else if (flatNumber <=90) {
+} else if (flatNumber > 48 && flatNumber <= 90) {
     console.log(flatNumber);
     console.log('The flat is in the third section of the house');
 }
