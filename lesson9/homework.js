@@ -60,6 +60,7 @@ let coursesAndDurationArray2 = [
 // За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде <h1 class='heading'>  з title  елементу, та <p class='description'> з monthDuration елементу.
 //     Завдання робити через цикли.
 
+
 for (const element of coursesAndDurationArray2) {
     let div = document.createElement('div');
     div.classList.add('item');

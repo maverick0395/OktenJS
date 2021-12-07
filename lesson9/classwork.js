@@ -141,7 +141,6 @@ for (const course of coursesArray) {
                 let innerDiv = document.createElement('div')
                 innerDiv.innerText = item;
                 div.appendChild(innerDiv);
-
             }
             div.classList.add('listWrapper')
             wrapper.appendChild(div);

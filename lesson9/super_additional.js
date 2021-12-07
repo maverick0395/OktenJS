@@ -83,7 +83,6 @@ for (const user of users) {
             innerText = innerText.concat(`${property}: ${user[property]} \n`);
         }
     }
-
     div.innerText = innerText;
     outer_div.appendChild(div);
 }
