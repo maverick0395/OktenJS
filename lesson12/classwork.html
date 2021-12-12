@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #wrap {
+            display: grid;
+            grid-template-columns:  repeat(5, 1fr);
+        }
+
+        .post_card {
+            height: 350px;
+            width: 300px;
+            border: 1px solid black;
+
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .post--userId, .post--id {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .post--title {
+            margin-top: 10px;
+
+            font-weight: bold;
+            height: 20px;
+
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .post--body {
+            height: 200px;
+
+            margin-top: 20px;
+
+            overflow: hidden;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 150px;
+            align-self: center;
+        }
+
+        #comments-window {
+            position: fixed;
+            z-index: 2;
+            top: 0;
+            left: 0;
+
+            width: 90vw;
+            padding: 0 10px;
+
+            border: 1px solid blue;
+            background: antiquewhite;
+
+            display: flex;
+
+            overflow: hidden;
+        }
+
+        #close {
+            position: absolute;
+            bottom: 0;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+
+<script src="classwork.js"></script>
+</body>
+</html>
