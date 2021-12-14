@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        form {
+            width: 300px;
+            border: 1px solid black;
+
+            padding: 10px;
+        }
+
+        #create_form  input {
+            margin: 10px 0 10px 30px;
+        }
+
+        #create_form label:first-child input  {
+            margin-left: 50px;
+        }
+        #create_form label:last-of-type input {
+            margin-left: 46px;
+        }
+
+
+    </style>
+</head>
+<body>
+<form name="f1" id="create_form">
+    <label>Name<input name="item_name" type="text"></label>
+</br>
+    <label>Quantity <input name="item_quantity" type="number"></label>
+</br>
+    <label>Image <input name="item_image" type="text"></label>
+</br>
+    <button id="create_but">Create item</button>
+</form>
+<a id="to_items" href="item_list.html">Go to the items</a>
+
+
+<script src="additional.js"></script>
+</body>
+</html>
